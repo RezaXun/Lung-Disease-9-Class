@@ -19,7 +19,7 @@ st.set_page_config(
   page_icon = ":lung:"
 )
 
-df = pd.read_csv('dataset\dfClean.csv',delimiter=";")
+df = pd.read_csv('dataset/dfClean.csv',delimiter=";")
 # st.dataframe(df)
 X = df.drop("Label",axis=1)
 y = df['Label']
